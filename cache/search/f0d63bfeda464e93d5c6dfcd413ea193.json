@@ -1,0 +1,60 @@
+{
+    "data": {
+        "count": 9,
+        "next": "https://google-scraper.p.rapidapi.com/search/?query=mango&page=3",
+        "previous": "https://google-scraper.p.rapidapi.com/search/?query=mango&page=1",
+        "results": [
+            {
+                "title": "Fashion for Women | Mango USA",
+                "link": "https://shop.mango.com/us",
+                "description": "Latest trends in fashion for women. Discover our designs: dresses, tops, jeans, shoes, bags and accessories. Free delivery from US$50 - Returns within 30 ..."
+            },
+            {
+                "title": "Mango",
+                "link": "https://en.wikipedia.org/wiki/Mango",
+                "description": "A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It is believed to have originated in southern Asia, particularly in eastern ..."
+            },
+            {
+                "title": "Mango Languages: Homepage",
+                "link": "https://mangolanguages.com/",
+                "description": "Native speaker and sophisticated AI-generated audio. Real-life Conversations. Cultural Context. The best way to learn a foreign language."
+            },
+            {
+                "title": "Women's Fashion Outlet 2023 | Mango Outlet USA",
+                "link": "https://www.mangooutlet.com/us/women",
+                "description": "Find in Mango Outlet factory exclusive promotions and special prices in women's fashion: dresses, t-shirts, jeans, shoes, bags and accessories."
+            },
+            {
+                "title": "Mangos - All You Need To Know About Mango - Mango.org",
+                "link": "https://www.mango.org/",
+                "description": "A mango tree's leaves are long and leathery. They are a deep shade of green and around five to sixteen inches in length, alternating on a slim woody branch."
+            },
+            {
+                "title": "Mangoes: Benefits, nutrition, and recipes",
+                "link": "https://www.medicalnewstoday.com/articles/275921",
+                "description": "Health experts consider mangoes to contain medium to high amounts of potassium. A 165-gramTrusted Source (g) cup of raw mango provides 277 ..."
+            },
+            {
+                "title": "Mango | Description, History, Cultivation, & Facts",
+                "link": "https://www.britannica.com/plant/mango-plant-and-fruit",
+                "description": "The tree is evergreen, often reaching 15\u201318 metres (50\u201360 feet) in height and attaining great age. The simple leaves are lanceolate, up to 30 cm ..."
+            },
+            {
+                "title": "MANGO (@mango) \u2022 Instagram photos and videos",
+                "link": "https://www.instagram.com/mango/",
+                "description": "MANGO Official Account Welcome to the home of Mediterranean style and culture. Mention @mango and use #MangoCommunity to be featured. go.mango/shop."
+            },
+            {
+                "title": "mango - Wiktionary, the free dictionary",
+                "link": "https://en.wiktionary.org/wiki/mango",
+                "description": "The Oxford English Dictionary says it ultimately stems from Malayalam \u0d2e\u0d3e\u0d19\u0d4d\u0d19 (m\u0101\u1e45\u1e45a, \u201cunripe mango\u201d) (\u0d2e\u0d3e\u0d35\u0d4d (m\u0101v\u016d, \u201cmango tree\u201d) + \u0d15\u0d3e\u0d2f (k\u0101ya, \u201cunripe fruit\u201d)), ..."
+            },
+            {
+                "title": "Mango: Nutrition, Health Benefits, and How to Eat It",
+                "link": "https://www.healthline.com/nutrition/mango",
+                "description": "One of its most impressive nutrient facts is that just 1 cup (165 grams) of fresh mango provides nearly 67% of the DV for vitamin C. This water- ..."
+            }
+        ]
+    },
+    "error": null
+}

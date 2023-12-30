@@ -1,0 +1,60 @@
+{
+    "data": {
+        "count": 9,
+        "next": "https://google-scraper.p.rapidapi.com/search/?query=watermelon&page=3",
+        "previous": "https://google-scraper.p.rapidapi.com/search/?query=watermelon&page=1",
+        "results": [
+            {
+                "title": "Watermelon",
+                "link": "https://en.wikipedia.org/wiki/Watermelon",
+                "description": "It has a thin, light and dark green striped rind, and sweet white flesh with black seeds. It can grow well in cool climates. It was originally brought to ..."
+            },
+            {
+                "title": "Top 9 Health Benefits of Eating Watermelon",
+                "link": "https://www.healthline.com/nutrition/watermelon-health-benefits",
+                "description": "Watermelon contains a variety of nutrients, including potassium, magnesium, and vitamins A and C. It's also relatively low in calories, ..."
+            },
+            {
+                "title": "Welcome to Watermelon.org",
+                "link": "https://www.watermelon.org/",
+                "description": "Learn about the wonderful world of watermelon with recipes, carvings, educational resources, activities and industry promotion materials."
+            },
+            {
+                "title": "Watermelon: Health benefits, nutrition, and risks",
+                "link": "https://www.medicalnewstoday.com/articles/266886",
+                "description": "Watermelon is around 90% water and also provides electrolytes, such as potassium. This makes it a healthful choice of snack during the hot summer months."
+            },
+            {
+                "title": "Watermelon: Health benefits, risks & nutrition facts",
+                "link": "https://www.livescience.com/46019-watermelon-nutrition.html",
+                "description": "Watermelon (Citrullus lanatus) is a delicious fruit which contains many nutrients, is low in calories and is free of fat."
+            },
+            {
+                "title": "The Health Benefits of Watermelon",
+                "link": "https://www.webmd.com/diet/ss/slideshow-health-benefits-of-watermelon",
+                "description": "Just one medium slice of watermelon gives you contains 9-11% of the vitamin A you need each day. This nutrient is one of the keys to keeping your eyes healthy."
+            },
+            {
+                "title": "Watermelon | Nutrition, Health Benefits, Recipes",
+                "link": "https://www.britannica.com/plant/watermelon",
+                "description": "The fruit is a type of berry known botanically as a pepo. The sweet juicy flesh may be reddish, white, or yellow; flesh colour, shape of the ..."
+            },
+            {
+                "title": "Watermelon's Benefits",
+                "link": "https://www.watermelon.org/nutrition/watermelons-benefits/",
+                "description": "Watermelon contains higher levels of lycopene than any other fresh fruit or vegetable (12.7 mg per 2-cup serving) and is part of a healthy diet."
+            },
+            {
+                "title": "Watermelon 101: Nutrition Facts and Health Benefits",
+                "link": "https://www.healthline.com/nutrition/foods/watermelon",
+                "description": "Nutrition Facts. Watermelon consists mostly of water (91%) and carbs (7.5%). It provides almost no protein or fat and is very low in calories."
+            },
+            {
+                "title": "Watermelon 101: Nutrition Facts and Health Benefits",
+                "link": "https://www.healthline.com/nutrition/foods/watermelon",
+                "description": "Nutrition Facts. Watermelon consists mostly of water (91%) and carbs (7.5%). It provides almost no protein or fat and is very low in calories."
+            }
+        ]
+    },
+    "error": null
+}
