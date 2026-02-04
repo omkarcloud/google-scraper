@@ -8,7 +8,7 @@
 ---
 
 
-![Google Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-featured-image.png)
+<!--![Google Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-featured-image.png)-->
 
 <div align="center" style="margin-top: 0;">
   <h1>✨ Google Scraper 🚀</h1>
