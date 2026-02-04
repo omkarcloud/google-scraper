@@ -1,3 +1,11 @@
+
+## 👉 Explore Our Other Awesome Products
+
+- ✅ [Geocoding API](https://github.com/omkarcloud/google-geocoding-api): Highly Accurate, Free and Unlimited Requests Geocoding API. Convert city names to latitude/longitude coordinates.  
+
+<!-- - ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers. -->
+
+
 ![Google Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-featured-image.png)
 
 <div align="center" style="margin-top: 0;">
@@ -30,18 +38,6 @@
     <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg" />
   </a>
 </p>
-  
----
-
-## Disclaimer for Google Scraper Project
-
-> By using Google Scraper, you agree to comply with all applicable local and international laws related to data scraping, copyright, and privacy. The developers of Google Scraper will not be held liable for any misuse of this software. It is the user's sole responsibility to ensure adherence to all relevant laws regarding data scraping, copyright, and privacy, and to use Google Scraper in an ethical and legal manner, in line with both local and international regulations.
-
-We take concerns related to the Google Scraper Project very seriously. If you have any inquiries or issues, please contact Chetan Jain at [chetan@omkar.cloud](mailto:chetan@omkar.cloud). We will take prompt and necessary action in response to your emails.
-
-## 👉 Explore Our Other Awesome Products
-
-- ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers.
 
 ---
 
