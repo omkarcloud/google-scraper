@@ -5,6 +5,8 @@
 
 <!-- - ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers. -->
 
+---
+
 
 ![Google Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-featured-image.png)
 
