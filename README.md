@@ -44,7 +44,7 @@ Google Search Scraper is a **free and open-source** scraper that gets you **unli
 
 *Trimmed for readability.*
 
-## 🚀 Unlimited Free Google Search Data — Get It in 60 Seconds
+## 🚀 Unlimited Free Google Search Data — Get It in 3 Steps
 
 1️⃣ Clone and install (the second command downloads Camoufox, the hardened Firefox that opens Google for you):
 ```bash
@@ -91,7 +91,7 @@ curl "http://localhost:8000/search?query=best+laptop+2026"
 
 All 26 endpoints are now live at `http://localhost:8000`.
 
-The first search takes up to a minute while a browser opens Google; after that, each search takes a second or two.
+The first search can take a few minutes while a browser opens Google and clears its checks; after that, each search takes a second or two.
 
 ### 🔓 Google Showing a Captcha?
 
