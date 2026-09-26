@@ -181,4 +181,4 @@ It's just 1 click, but it means the world to me.
 
 ---
 
-*Disclosure: the CapSolver link above is a referral link, and the scraper tags each captcha it sends to CapSolver with our developer app id. CapSolver pays us a small commission for those solves. It costs you nothing extra — you pay CapSolver's normal price, and using CapSolver at all is optional.*
+*Disclosure: the CapSolver link above is a referral link, and the scraper tags each captcha it sends to CapSolver with our developer app id. CapSolver pays us a small commission for those solves. It costs you nothing extra. This helps support the project.*
