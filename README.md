@@ -154,6 +154,8 @@ response = requests.get(
 print(response.json())
 ```
 
+*Disclosure: the CapSolver link above is a referral link. CapSolver pays us a small commission for those solves. It costs you nothing extra. This helps support the project.*
+
 ## 💬 Have Questions? We Have Answers.
 
 You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
@@ -178,7 +180,3 @@ Star the repo ⭐ and become my star hero!
 It's just 1 click, but it means the world to me.
 
 [![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)](https://github.com/omkarcloud/google-scraper)
-
----
-
-*Disclosure: the CapSolver link above is a referral link, and the scraper tags each captcha it sends to CapSolver with our developer app id. CapSolver pays us a small commission for those solves. It costs you nothing extra. This helps support the project.*
