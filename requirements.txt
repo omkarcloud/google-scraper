@@ -1,2 +1,9 @@
-botasaurus
-casefy
+bottle
+cheroot
+curl_cffi
+marshmallow
+lxml
+cssselect
+camoufox[geoip]
+browserforge
+psutil

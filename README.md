@@ -1,147 +1,184 @@
+# 🔍 Google Search Scraper
 
-## 👉 Explore Our Other Awesome Products
+Google Search Scraper is a **free and open-source** scraper that gets you **unlimited** detailed Google Search data for free.
 
-- ✅ [Geocoding API](https://github.com/omkarcloud/google-geocoding-api): Highly Accurate, Free and Unlimited Requests Geocoding API. Convert city names to latitude/longitude coordinates.  
+## ✨ What Can I Get?
 
-<!-- - ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers. -->
+- 🔍 **The full Google results page in one call** — organic results, AI Overview, People also ask, ads & top stories
+- 🛍️ **12 Google verticals** — Images, Videos, News, Shopping, Local, Jobs, Forums, Books & more
+- 📰 **Google News, Trends & Patents** — headlines for any country, interest for up to 5 keywords, full patent text
+- 📈 **Live Google Finance** — price, key stats, financials, chart & news for any stock or crypto
 
----
+## 🎥 Example: A Full Google Results Page
 
+```json
+{
+  "count": 315000,
+  "current_page": 1,
+  "search_information": { "query": "best laptop 2026", "total_results": 315000, "time_taken_seconds": 0.23 },
+  "organic_results": [
+    {
+      "position": 3,
+      "title": "Best Laptop Deal of the Day: Lock in This Lenovo Gaming ...",
+      "link": "https://www.pcmag.com/deals/best-laptop-deal-of-the-day-lenovo-gaming-rig-for-650-off-sept-3",
+      "domain": "www.pcmag.com",
+      "date": "Sep 3, 2026",
+      "snippet": "Lenovo LOQ 15 is an affordable midrange pick. Acer Predator Triton Neo 16 The Best Gaming Laptops for 2026..."
+    }
+  ],
+  "ai_overview": {
+    "is_available": true,
+    "text": "The best overall laptop for most people in 2026 is the MacBook Air (13-inch, M5) , which starts at $1,099 with double the base storage and powerful neural-accelerated graphics...",
+    "sources": [
+      { "title": "The Best Laptops for 2026 - PCMag UK", "source": "PCMag UK", "link": "https://uk.pcmag.com/laptops/158/the-best-laptops" }
+    ]
+  },
+  "people_also_ask": [
+    { "question": "What laptop should I buy in 2026?", "answer": null, "source": null }
+  ],
+  "discussions": [
+    { "text": "Best laptops of 2026: We tested 90+ to find the top 9", "link": "https://mashable.com/roundup/best-laptops-2026-expert-reviewed", "author": "Mashable", "date": "4 days ago" }
+  ]
+}
+```
 
-<!--![Google Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-featured-image.png)-->
+*Trimmed for readability.*
 
-<div align="center" style="margin-top: 0;">
-  <h1>✨ Google Scraper 🚀</h1>
-  <p>💦 Google Scraper helps you collect search results from Google. 💦</p>
-</div>
-<em>
-  <h5 align="center">(Programming Language - Python 3)</h5>
-</em>
-<p align="center">
-  <a href="#">
-    <img alt="google-scraper forks" src="https://img.shields.io/github/forks/omkarcloud/google-scraper?style=for-the-badge" />
-  </a>
-  <a href="#">
-    <img alt="Repo stars" src="https://img.shields.io/github/stars/omkarcloud/google-scraper?style=for-the-badge&color=yellow" />
-  </a>
-  <a href="#">
-    <img alt="google-scraper License" src="https://img.shields.io/github/license/omkarcloud/google-scraper?color=orange&style=for-the-badge" />
-  </a>
-  <a href="https://github.com/omkarcloud/google-scraper/issues">
-    <img alt="issues" src="https://img.shields.io/github/issues/omkarcloud/google-scraper?color=purple&style=for-the-badge" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://views.whatilearened.today/views/github/omkarcloud/google-scraper.svg" width="80px" height="28px" alt="View" />
-</p>
+## 🚀 Unlimited Free Google Search Data — Get It in 60 Seconds
 
-<p align="center">
-  <a href="https://gitpod.io/#https://github.com/omkarcloud/google-scraper">
-    <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg" />
-  </a>
-</p>
-
----
-
-Google Scraper helps you collect search results from Google.
-
-## 🚀 Getting Started
-
-1️⃣ **Clone the Magic 🧙‍♀:**
-```shell
+1️⃣ Clone and install (the second command downloads Camoufox, the hardened Firefox that opens Google for you):
+```bash
 git clone https://github.com/omkarcloud/google-scraper
 cd google-scraper
-```
-2️⃣ **Install Dependencies 📦:**
-```shell
 python -m pip install -r requirements.txt
-```
-3️⃣ **Let the Scraping Begin 😎**:
-```shell
-python main.py
+python -m camoufox fetch
 ```
 
-Find your data in the `output` directory.
-
-![Google Scraper CSV Result](https://raw.githubusercontent.com/omkarcloud/google-scraper/master/images/google-scraper-csv-result.png)
-
-*Note: If you don't have Python installed. Follow this Simple FAQ [here](https://github.com/omkarcloud/google-scraper/blob/master/advanced.md#-i-dont-have-python-installed-how-can-i-run-the-scraper) and you will have your Google data in next 5 Minutes*
-
-## 🤔 FAQs
-
-### ❓ How to Scrape Google?
-
-1. Open the `main.py` file.
-2. Update the `queries` list with the locations you are interested in. For example:
-
-```python
-queries = [
-  "Mango",
-  "Watermelon",
-]
-
-Google.search(queries, max=10)
+2️⃣ Start the API:
+```bash
+python run.py
 ```
 
-3. Run it.
+3️⃣ Get your first data:
+```bash
+curl "http://localhost:8000/search?query=best+laptop+2026"
+```
+
+```json
+{
+  "count": 315000,
+  "current_page": 1,
+  "next": "http://localhost:8000/search?query=best+laptop+2026&page=2",
+  "search_information": { "query": "best laptop 2026", "total_results": 315000, "time_taken_seconds": 0.15 },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Which laptop in 2026 ? : r/SuggestALaptop",
+      "link": "https://www.reddit.com/r/SuggestALaptop/comments/1wm2dy7/which_laptop_in_2026/",
+      "domain": "www.reddit.com",
+      "date": "5 days ago"
+    }
+  ],
+  "ai_overview": {
+    "text": "The best overall laptop for most people in 2026 is the MacBook Air (13-inch, M5) , which starts at $1,099 with double the base storage and powerful neural-accelerated graphics...",
+    "sources": [
+      { "title": "Best Laptops (2026): My Top Recommendations After ... - WIRED", "link": "https://www.wired.com/story/best-laptops/" }
+    ]
+  },
+  "people_also_ask": [{ "question": "What laptop should I buy in 2026?" }]
+}
+```
+
+All 26 endpoints are now live at `http://localhost:8000`.
+
+The first search takes up to a minute while a browser opens Google; after that, each search takes a second or two.
+
+### 🔓 Google Showing a Captcha?
+
+Google often answers a fresh browser with an "unusual traffic" captcha. The scraper first tries on its own — no key, no cost — and when Google insists, it tells you so. Then:
+
+1. Get a [CapSolver](https://dashboard.capsolver.com/passport/register?inviteCode=lvdYBC4sYKRm) API key (one captcha is solved per ~30 searches).
+2. Start the API with it:
+   ```bash
+   CAPSOLVER_API_KEY=CAP-... python run.py
+   ```
+
+For heavy use, add a sticky residential proxy too — Google pauses one IP after a few dozen searches:
 
 ```bash
-python main.py
+GOOGLE_SEARCH_PROXY="http://user-session-{session}:pass@host:port" CAPSOLVER_API_KEY=CAP-... python run.py
 ```
 
-Then find your data in the `output` directory.
+`{session}` gets a fresh id for every browser session. See [config.py](config.py) for every option.
 
+Google News, Trends, Patents, Finance and Autocomplete need none of this — they are plain HTTP and work straight away. The Google Search pages work best when you run the scraper on macOS or Windows.
 
-### ❓ How to Scrape More Google Search Results Using Your Google API?
+## 📚 Endpoints
 
-To scrape additional data, follow these steps to use our Google API. You can make 50 requests for free:
+26 endpoints cover everything you need.
 
-1. Sign up on RapidAPI by visiting [this link](https://rapidapi.com/auth/sign-up).
+| Endpoint | Path | Returns |
+|---|---|---|
+| Google Search Results | `/search` | Full results page: organic, AI Overview, People also ask, ads, top stories |
+| Autocomplete Suggestions | `/autocomplete` | Google's live suggestions for a partial query |
+| Search Light | `/search/light` | Organic results only, up to 100 per call |
+| AI Overview | `/ai-overview` | Google's AI answer with the sources it cites |
+| People Also Ask | `/people-also-ask` | The questions Google shows for a query |
+| Images / Videos | `/images`, `/videos` | Image and video results with thumbnails and filters |
+| News Tab | `/news` | Google Search's News tab, by relevance or date |
+| Shopping | `/shopping` | Products with price, store, rating and delivery |
+| Local Places | `/local` | Businesses with rating, reviews, address, hours, phone |
+| Jobs / Forums / Books | `/jobs`, `/forums`, `/books` | Job listings, Reddit & forum threads, Google Books |
+| Google News | `/news/search`, `/news/top-headlines`, `/news/topic`, `/news/local` | Articles by keyword, country, topic or city |
+| Resolve News Link | `/news/resolve-link` | A Google News link turned into the publisher's URL |
+| Google Trends | `/trends/trending`, `/trends/interest-over-time`, `/trends/interest-by-region`, `/trends/related` | Trending searches, interest over time and by region, related queries |
+| Google Patents | `/patents/search`, `/patents/details` | Patent search and the full patent: claims, citations, family |
+| Google Finance | `/finance/quote`, `/finance/overview` | Stock and crypto quotes, market movers and news |
 
-![Sign Up on RapidAPI](https://raw.githubusercontent.com/omkarcloud/assets/master/images/sign-up.png)
+## 🔍 Exploring Parameters
 
-2. Then, subscribe to our Free Plan by visiting [this link](https://rapidapi.com/Chetan11dev/api/google-scraper/pricing).
+The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
 
-![Subscribe to Free Plan](https://raw.githubusercontent.com/omkarcloud/assets/master/images/free-subscription.png)
+1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-google-search-scraper-free-200-calls/pricing) — 200 calls/month, no credit card.
+2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-google-search-scraper-free-200-calls/playground) — every param is pre-filled, so you see real data in one click.
+3. Copy the generated code and replace `https://best-google-search-scraper-free-200-calls.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
 
-3. Now, copy the API key.
-
-![Copy the API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/api-key.png) 
-
-4. Use it in the scraper as follows:
 ```python
-Google.search("Orange", max=10, key="YOUR_API_KEY")
+import requests
+
+# generated by the playground, host swapped for the local API
+response = requests.get(
+    "http://localhost:8000/search",
+    params={"query": "best laptop 2026"},
+)
+print(response.json())
 ```
 
-5. Run the script, and you'll find your data in the `output` folder.
-```bash
-python main.py
-```   
+## 💬 Have Questions? We Have Answers.
 
-The first 50 requests are free. After that, you can upgrade to the Pro Plan, which will get you 1000 requests for just $9.
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
 
+[![Message Us on WhatsApp about Google Search Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Google%20Search%20Scraper%20API.)
 
-### ❓ How did you build it?
+[![Ask Us by Email about Google Search Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Google%20Search%20Scraper%20API&body=I%20need%20help%20using%20the%20Google%20Search%20Scraper%20API.)
 
-We used Botasaurus, It's an All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers.
+## ⚡ Popular Scrapers by Omkar Cloud
 
-Botasaurus helped us cut down the development time by 50% and helped us focus only on the core extraction logic of the scraper.
+- [**Google Maps Scraper (3,100+ GitHub Stars)**](https://github.com/omkarcloud/google-maps-scraper) — type "dentists in New York", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
+- [**G2 Scraper**](https://www.omkar.cloud/tools/g2-scraper) — G2 product details, ratings & AI-found contacts
+- [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
+- [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper) — live product details, SKU variants, stock & shipping
+- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Etsy Scraper**](https://www.omkar.cloud/tools/etsy-scraper) — Etsy products: prices, discounts, shops & variations
 
-If you are a Web Scraper, you should learn about Botasaurus [here](https://github.com/omkarcloud/botasaurus), because Botasaurus will save you countless hours in your life as a Web Scraper.
+## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/google-scraper)
 
-<p align="center">
-  <a href="https://github.com/omkarcloud/botasaurus">
-  <img src="https://raw.githubusercontent.com/omkarcloud/assets/master/images/mascot.png" alt="botasaurus" />
-</a>
-</p>
+Star the repo ⭐ and become my star hero!
 
+It's just 1 click, but it means the world to me.
 
-### ❓ Need More Help or Have Additional Questions?
+[![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)](https://github.com/omkarcloud/google-scraper)
 
-For further help, contact us on WhatsApp. We'll be happy to help you out.
+---
 
-[![Contact Us on WhatsApp about Google Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products.)
-
-## Love It? [Star It! ⭐](https://github.com/omkarcloud/google-scraper/stargazers)
-
-## Made with ❤️ using [Botasaurus Web Scraping Framework](https://github.com/omkarcloud/botasaurus)
+*Disclosure: the CapSolver link above is a referral link, and the scraper tags each captcha it sends to CapSolver with our developer app id. CapSolver pays us a small commission for those solves. It costs you nothing extra — you pay CapSolver's normal price, and using CapSolver at all is optional.*
